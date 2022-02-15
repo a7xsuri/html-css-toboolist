@@ -1,6 +1,21 @@
 * {
     margin:0;
-    padding: 0;    
+    padding: 0; 
+    box-sizing: border-box;   
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.marginleft {
+    margin-left: 40px;
+}
+
+.margintop {
+    margin-top: 20px;
+}
+
+#tre {
+    margin-left: 10px;
+    margin-top: 5px;
 }
 
 header {
@@ -17,7 +32,6 @@ img {
 h1 {
     display: inline-block;
     font-size: 45px;
-    font-family: Arial, Helvetica, sans-serif;
     vertical-align: middle;
 }
 
@@ -26,3 +40,55 @@ main {
     width: 100%;
     height: 1000px;
 }
+
+.rettangolo {
+    margin: 0 auto;
+    width: 80%;
+    height: 30em;
+    background-color: white;
+    position: relative;
+    top: 40px;
+}
+
+div button {
+    margin-top: 10px;
+    font-size:13px;
+}
+
+.uno {
+    color:white;
+    background-color: #52a1f6;
+    border-radius: 5px;
+    padding:5px;
+    border:none;
+}
+.due {
+    color:gray;
+    background-color: white;
+    border-radius: 5px;
+    padding:5px;
+    border-color: gray;
+    border:1px solid;
+}
+
+hr {
+    color: #fbecec45;
+    margin-top:10px;
+}
+
+li {
+    list-style: none;
+}
+
+section {
+    font-size: 20px;
+}
+
+span {
+    background-color: #52a1f6;
+    color:white;
+    border-radius: 17px;
+    font-size: 13px;
+    padding: 8px;
+}
+
